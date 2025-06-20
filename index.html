@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Taif Weather Bot</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      padding: 2rem;
+      color: #333;
+    }
+    .box {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+      white-space: pre-wrap;
+    }
+    h1 {
+      color: #0066cc;
+    }
+  </style>
+</head>
+<body>
+  <h1>🌤️ Taif Weather Bot</h1>
+  <h3>By : Saad Almalki</h3>
+  <div class="box" id="readme">Loading weather data...</div>
+
+  <script>
+    fetch("https://raw.githubusercontent.com/Saad711T/Taif-Weather-Bot/main/README.md")
+      .then(res => res.text())
+      .then(text => {
+        document.getElementById("readme").textContent = text;
+      });
+  </script>
+</body>
+</html>

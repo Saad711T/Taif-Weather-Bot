@@ -32,7 +32,7 @@
     fetch("https://raw.githubusercontent.com/Saad711T/Taif-Weather-Bot/main/README.md")
       .then(res => res.text())
       .then(text => {
-        document.getElementById("readme").innerHTML = marked.parse(text);
+        document.getElementById("readme").textContent = text;
       });
   </script>
 </body>

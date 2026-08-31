@@ -1,8 +1,8 @@
 # 🌤️ Today's Weather in Taif, Saudi Arabia
 
-**📅 Date:** 2026-08-30 14:40:11
+**📅 Date:** 2026-08-31 16:16:36
 
-- **Condition:** Broken clouds
-- **Temperature:** 34.56°C
-- **Humidity:** 15%
-- **Wind Speed:** 4.86 m/s
+- **Condition:** Scattered clouds
+- **Temperature:** 35.56°C
+- **Humidity:** 12%
+- **Wind Speed:** 6.69 m/s
